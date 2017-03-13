@@ -56,10 +56,10 @@
             this.panelCadastros = new System.Windows.Forms.Panel();
             this.btn_CadastrarPedidos = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -250,6 +250,7 @@
             this.btn_CadastrarCliente.TabIndex = 1;
             this.btn_CadastrarCliente.Text = "Cadastrar Cliente";
             this.btn_CadastrarCliente.UseVisualStyleBackColor = true;
+            this.btn_CadastrarCliente.Click += new System.EventHandler(this.btn_CadastrarCliente_Click);
             // 
             // btn_CadastrarProduto
             // 
@@ -273,11 +274,12 @@
             // 
             // panelCadastros
             // 
+            this.panelCadastros.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panelCadastros.Controls.Add(this.btn_CadastrarPedidos);
             this.panelCadastros.Controls.Add(this.lb_Cadastros);
             this.panelCadastros.Controls.Add(this.btn_CadastrarProduto);
             this.panelCadastros.Controls.Add(this.btn_CadastrarCliente);
-            this.panelCadastros.Location = new System.Drawing.Point(225, 61);
+            this.panelCadastros.Location = new System.Drawing.Point(191, 61);
             this.panelCadastros.Name = "panelCadastros";
             this.panelCadastros.Size = new System.Drawing.Size(151, 332);
             this.panelCadastros.TabIndex = 4;
@@ -294,14 +296,33 @@
             // 
             // panel1
             // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.button3);
-            this.panel1.Location = new System.Drawing.Point(382, 61);
+            this.panel1.Location = new System.Drawing.Point(368, 61);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(321, 140);
             this.panel1.TabIndex = 5;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(209, 36);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(96, 92);
+            this.button5.TabIndex = 5;
+            this.button5.Text = "Consultar Pedidos";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(107, 36);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(96, 92);
+            this.button4.TabIndex = 4;
+            this.button4.Text = "Consultar Produto";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -322,31 +343,14 @@
             this.button3.Text = "Consultar Cliente";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(107, 36);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(96, 92);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Consultar Produto";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(209, 36);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(96, 92);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "Consultar Pedidos";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
             // panel2
             // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.button6);
-            this.panel2.Location = new System.Drawing.Point(382, 225);
+            this.panel2.Location = new System.Drawing.Point(368, 224);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(321, 140);
             this.panel2.TabIndex = 6;
@@ -401,13 +405,14 @@
             // 
             // panel3
             // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Controls.Add(this.button7);
             this.panel3.Controls.Add(this.button8);
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.button9);
             this.panel3.Location = new System.Drawing.Point(709, 61);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(109, 324);
+            this.panel3.Size = new System.Drawing.Size(116, 332);
             this.panel3.TabIndex = 7;
             // 
             // button7

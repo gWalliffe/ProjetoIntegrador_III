@@ -28,5 +28,10 @@ namespace PI_III
         {
 
         }
+
+        private void btn_CadastrarCliente_Click(object sender, EventArgs e)
+        {
+            tela
+        }
     }
 }
