@@ -46,23 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="telaCadastroCliente.cs">
+    <Compile Include="telaCadCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telaCadastroCliente.Designer.cs">
-      <DependentUpon>telaCadastroCliente.cs</DependentUpon>
+    <Compile Include="telaCadCliente.Designer.cs">
+      <DependentUpon>telaCadCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="telaCadastroPedido.cs">
+    <Compile Include="telaCadPedido.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telaCadastroPedido.Designer.cs">
-      <DependentUpon>telaCadastroPedido.cs</DependentUpon>
+    <Compile Include="telaCadPedido.Designer.cs">
+      <DependentUpon>telaCadPedido.cs</DependentUpon>
     </Compile>
-    <Compile Include="telaCadastroProduto.cs">
+    <Compile Include="telaCadProduto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telaCadastroProduto.Designer.cs">
-      <DependentUpon>telaCadastroProduto.cs</DependentUpon>
+    <Compile Include="telaCadProduto.Designer.cs">
+      <DependentUpon>telaCadProduto.cs</DependentUpon>
     </Compile>
     <Compile Include="TelaInicial.cs">
       <SubType>Form</SubType>
@@ -84,14 +84,14 @@
     <Compile Include="TelaOrganizacao.Designer.cs">
       <DependentUpon>TelaOrganizacao.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="telaCadastroCliente.resx">
-      <DependentUpon>telaCadastroCliente.cs</DependentUpon>
+    <EmbeddedResource Include="telaCadCliente.resx">
+      <DependentUpon>telaCadCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telaCadastroPedido.resx">
-      <DependentUpon>telaCadastroPedido.cs</DependentUpon>
+    <EmbeddedResource Include="telaCadPedido.resx">
+      <DependentUpon>telaCadPedido.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telaCadastroProduto.resx">
-      <DependentUpon>telaCadastroProduto.cs</DependentUpon>
+    <EmbeddedResource Include="telaCadProduto.resx">
+      <DependentUpon>telaCadProduto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TelaInicial.resx">
       <DependentUpon>TelaInicial.cs</DependentUpon>

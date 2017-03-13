@@ -36,5 +36,12 @@ namespace PI_III
         {
 
         }
+
+        private void btn_NovoPedido_Click(object sender, EventArgs e)
+        {
+            telaCadPedido chamarTelaCadPedido = new telaCadPedido();
+
+            chamarTelaCadPedido.Show();
+        }
     }
 }

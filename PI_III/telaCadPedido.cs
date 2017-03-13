@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PI_III
 {
-    public partial class telaCadastroPedido : Form
+    public partial class telaCadPedido : Form
     {
-        public telaCadastroPedido()
+        public telaCadPedido()
         {
             InitializeComponent();
         }

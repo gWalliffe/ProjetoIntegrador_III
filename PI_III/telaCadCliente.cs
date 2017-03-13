@@ -8,16 +8,31 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PI_III
+namespace WindowsFormsApplication1
 {
-    public partial class telaCadastroProduto : Form
+    public partial class telaCadCliente : Form
     {
-        public telaCadastroProduto()
+        public telaCadCliente()
         {
             InitializeComponent();
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Endereço_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

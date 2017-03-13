@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication1
 {
-    partial class telaCadastroCliente
+    partial class telaCadCliente
     {
         /// <summary>
         /// Required designer variable.
@@ -406,7 +406,7 @@
             this.btn_confirmaCadastro.Text = "Confirmar Cadastro";
             this.btn_confirmaCadastro.UseVisualStyleBackColor = true;
             // 
-            // telaCadastroCliente
+            // telaCadCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -416,7 +416,7 @@
             this.Controls.Add(this.btn_confirmaCadastro);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "telaCadastroCliente";
+            this.Name = "telaCadCliente";
             this.Text = "Novo Cliente";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

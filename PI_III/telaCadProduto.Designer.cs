@@ -1,6 +1,6 @@
 ﻿namespace PI_III
 {
-    partial class telaCadastroProduto
+    partial class telaCadProduto
     {
         /// <summary>
         /// Required designer variable.
@@ -30,6 +30,9 @@
         {
             System.Windows.Forms.Button btn_voltar;
             this.panel1 = new System.Windows.Forms.Panel();
+            this.rdb_produto_disponivel = new System.Windows.Forms.RadioButton();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -41,13 +44,19 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.txt_descricaoCadastroProduto = new System.Windows.Forms.TextBox();
             this.txt_NomeCadastroProduto = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.rdb_produto_disponivel = new System.Windows.Forms.RadioButton();
             this.btn_confirmaCadastro = new System.Windows.Forms.Button();
             btn_voltar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // btn_voltar
+            // 
+            btn_voltar.Location = new System.Drawing.Point(511, 464);
+            btn_voltar.Name = "btn_voltar";
+            btn_voltar.Size = new System.Drawing.Size(131, 23);
+            btn_voltar.TabIndex = 5;
+            btn_voltar.Text = "Voltar";
+            btn_voltar.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
@@ -70,6 +79,34 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(787, 379);
             this.panel1.TabIndex = 1;
+            // 
+            // rdb_produto_disponivel
+            // 
+            this.rdb_produto_disponivel.AutoSize = true;
+            this.rdb_produto_disponivel.Location = new System.Drawing.Point(158, 323);
+            this.rdb_produto_disponivel.Name = "rdb_produto_disponivel";
+            this.rdb_produto_disponivel.Size = new System.Drawing.Size(114, 17);
+            this.rdb_produto_disponivel.TabIndex = 13;
+            this.rdb_produto_disponivel.TabStop = true;
+            this.rdb_produto_disponivel.Text = "Produto disponível";
+            this.rdb_produto_disponivel.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.rdb_produto_disponivel.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(33, 277);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(62, 13);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "Quantidade";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(158, 274);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(132, 20);
+            this.textBox5.TabIndex = 11;
             // 
             // label16
             // 
@@ -166,43 +203,6 @@
             this.txt_NomeCadastroProduto.Size = new System.Drawing.Size(413, 20);
             this.txt_NomeCadastroProduto.TabIndex = 0;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(33, 277);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(62, 13);
-            this.label5.TabIndex = 12;
-            this.label5.Text = "Quantidade";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(158, 274);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(132, 20);
-            this.textBox5.TabIndex = 11;
-            // 
-            // rdb_produto_disponivel
-            // 
-            this.rdb_produto_disponivel.AutoSize = true;
-            this.rdb_produto_disponivel.Location = new System.Drawing.Point(158, 323);
-            this.rdb_produto_disponivel.Name = "rdb_produto_disponivel";
-            this.rdb_produto_disponivel.Size = new System.Drawing.Size(114, 17);
-            this.rdb_produto_disponivel.TabIndex = 13;
-            this.rdb_produto_disponivel.TabStop = true;
-            this.rdb_produto_disponivel.Text = "Produto disponível";
-            this.rdb_produto_disponivel.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.rdb_produto_disponivel.UseVisualStyleBackColor = true;
-            // 
-            // btn_voltar
-            // 
-            btn_voltar.Location = new System.Drawing.Point(511, 464);
-            btn_voltar.Name = "btn_voltar";
-            btn_voltar.Size = new System.Drawing.Size(131, 23);
-            btn_voltar.TabIndex = 5;
-            btn_voltar.Text = "Voltar";
-            btn_voltar.UseVisualStyleBackColor = true;
-            // 
             // btn_confirmaCadastro
             // 
             this.btn_confirmaCadastro.Location = new System.Drawing.Point(671, 464);
@@ -212,7 +212,7 @@
             this.btn_confirmaCadastro.Text = "Confirmar Cadastro";
             this.btn_confirmaCadastro.UseVisualStyleBackColor = true;
             // 
-            // telaCadastroProduto
+            // telaCadProduto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -220,8 +220,8 @@
             this.Controls.Add(btn_voltar);
             this.Controls.Add(this.btn_confirmaCadastro);
             this.Controls.Add(this.panel1);
-            this.Name = "telaCadastroProduto";
-            this.Text = "telaCadastroProduto";
+            this.Name = "telaCadProduto";
+            this.Text = "telaCadProduto";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

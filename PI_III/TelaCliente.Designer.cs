@@ -137,6 +137,7 @@
             this.btn_NovoPedido.TabIndex = 6;
             this.btn_NovoPedido.Text = "Novo Pedido";
             this.btn_NovoPedido.UseVisualStyleBackColor = true;
+            this.btn_NovoPedido.Click += new System.EventHandler(this.btn_NovoPedido_Click);
             // 
             // label1
             // 
