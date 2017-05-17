@@ -19,9 +19,7 @@ namespace PI_III
 
         private void cadastroDeUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            telaCadastroCliente chamarCadastroCliente = new telaCadastroCliente();
 
-            chamarCadastroCliente.Show();
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -31,7 +29,7 @@ namespace PI_III
 
         private void btn_CadastrarCliente_Click(object sender, EventArgs e)
         {
-            tela
+          
         }
     }
 }

@@ -110,7 +110,7 @@
             this.cadastroDeProdutosToolStripMenuItem.Name = "cadastroDeProdutosToolStripMenuItem";
             this.cadastroDeProdutosToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
             this.cadastroDeProdutosToolStripMenuItem.Text = "Cadastro de Produtos";
-            this.cadastroDeProdutosToolStripMenuItem.Click += new System.EventHandler(this.cadastroDeProdutosToolStripMenuItem_Click);
+            
             // 
             // cadastroDePedidosToolStripMenuItem
             // 
@@ -262,7 +262,7 @@
             this.btn_CadastrarProduto.Text = "Cadastrar Produto";
             this.btn_CadastrarProduto.UseMnemonic = false;
             this.btn_CadastrarProduto.UseVisualStyleBackColor = true;
-            this.btn_CadastrarProduto.Click += new System.EventHandler(this.btn_CadastrarProduto_Click);
+            
             // 
             // lb_Cadastros
             // 
