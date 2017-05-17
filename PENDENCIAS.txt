@@ -1,0 +1,26 @@
+CRUDs
+Usuario;
+ - Inserir 	OK
+ - Visualizar 	OK
+ - Modificar	OK
+ - Deletar	OK
+
+Categoria:	
+ - Inserir	OK
+ - Visualizar	OK
+ - Modificar	OK
+ - Deletar	OK
+
+Produto:
+ - Inserir	OK(IMAGEM) 
+ - Visualizar
+ - Modificar
+ - Deletar
+
+Estoque:
+ - Inserir 
+ - Visualizar
+ - Modificar
+ - Deletar
+
+validar login/logoff; OK

@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2FCC3962-7403-426A-991D-9D837F737B98}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FormularioPrincipal</RootNamespace>
+    <AssemblyName>FormularioPrincipal</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmInicioSistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInicioSistema.Designer.cs">
+      <DependentUpon>FrmInicioSistema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTelaAlteraCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTelaAlteraCategoria.Designer.cs">
+      <DependentUpon>FrmTelaAlteraCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTelaAlteraEstoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTelaAlteraEstoque.Designer.cs">
+      <DependentUpon>FrmTelaAlteraEstoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTelaAlteraProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTelaAlteraProduto.Designer.cs">
+      <DependentUpon>FrmTelaAlteraProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTelaAlteraUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTelaAlteraUsuario.Designer.cs">
+      <DependentUpon>FrmTelaAlteraUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTelaCadCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTelaCadCategoria.Designer.cs">
+      <DependentUpon>FrmTelaCadCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTelaCadProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTelaCadProduto.Designer.cs">
+      <DependentUpon>FrmTelaCadProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTelaCadUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTelaCadUsuario.Designer.cs">
+      <DependentUpon>FrmTelaCadUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTelaVisualizaCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTelaVisualizaCategoria.Designer.cs">
+      <DependentUpon>FrmTelaVisualizaCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTelaVisualizaEstoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTelaVisualizaEstoque.Designer.cs">
+      <DependentUpon>FrmTelaVisualizaEstoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTelaVisualizaProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTelaVisualizaProduto.Designer.cs">
+      <DependentUpon>FrmTelaVisualizaProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTelaVisualizaUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTelaVisualizaUsuario.Designer.cs">
+      <DependentUpon>FrmTelaVisualizaUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmInicioSistema.resx">
+      <DependentUpon>FrmInicioSistema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTelaAlteraCategoria.resx">
+      <DependentUpon>FrmTelaAlteraCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTelaAlteraEstoque.resx">
+      <DependentUpon>FrmTelaAlteraEstoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTelaAlteraProduto.resx">
+      <DependentUpon>FrmTelaAlteraProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTelaAlteraUsuario.resx">
+      <DependentUpon>FrmTelaAlteraUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTelaCadCategoria.resx">
+      <DependentUpon>FrmTelaCadCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTelaCadProduto.resx">
+      <DependentUpon>FrmTelaCadProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTelaCadUsuario.resx">
+      <DependentUpon>FrmTelaCadUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTelaVisualizaCategoria.resx">
+      <DependentUpon>FrmTelaVisualizaCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTelaVisualizaEstoque.resx">
+      <DependentUpon>FrmTelaVisualizaEstoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTelaVisualizaProduto.resx">
+      <DependentUpon>FrmTelaVisualizaProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTelaVisualizaUsuario.resx">
+      <DependentUpon>FrmTelaVisualizaUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add User Male-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shopping Cart-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checkout-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shopping Cart-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nota Fiscal Eletronica-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add User Group Man Man-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Price Tag-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cash Register-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout Rounded Down Filled-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\011_164_user_account_profile_change_swap_transfer_connection-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close Window Filled-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConexaoDataBase\ConexaoDataBase.csproj">
+      <Project>{a1aa7c62-9c4b-4e43-86c6-9506f605d9b6}</Project>
+      <Name>ConexaoDataBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telaLoginDelta.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telaLoginDelta.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white-wallpapers-42-wide-wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-botao-editar-perfil_318-32453.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoDelta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
